@@ -3,7 +3,7 @@ from unittest.mock import AsyncMock, MagicMock
 
 import pytest
 
-from bot.services.voice_guard import VoiceGuard
+from bot.services.guards.voice_guard import VoiceGuard
 
 
 def make_message(duration: int | None = None, peer_id=1, from_id=100, cmid=42):
